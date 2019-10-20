@@ -53,10 +53,10 @@ For instructions on how to install and setup the Enigma Developer Testnet see th
  - `@enigmampc/discovery-cli 0.1.3`
 
 ## Contributors
-[Aditya Palepu, Enigma MPC](https://blog.enigma.co/@apalepu23) - Millionaires' Problem articles and code
-[Reuven Podmazo, Enigma MPC](https://blog.enigma.co/@reuven_55986) - New and Improved Secret Contracts article and code
-[Victor Grau Serrat, Enigma MPC](https://blog.enigma.co/@victorsays) - Enigma DApp template code
-[Laura Weindorf, Enigma Collective](https://github.com/lauraweindorf) - Pulled the info together and created this repo
+- [Aditya Palepu, Enigma MPC](https://blog.enigma.co/@apalepu23) - Millionaires' Problem articles and code
+- [Reuven Podmazo, Enigma MPC](https://blog.enigma.co/@reuven_55986) - New and Improved Secret Contracts article and code
+- [Victor Grau Serrat, Enigma MPC](https://blog.enigma.co/@victorsays) - Enigma DApp template code
+- [Laura Weindorf, Enigma Collective](https://github.com/lauraweindorf) - Pulled the info together and created this repo
 
 ## Resources
 [Enigma Project Team](https://blog.enigma.co/@EnigmaMPC) - Enigma Blog and Updates
