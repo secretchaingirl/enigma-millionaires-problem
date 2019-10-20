@@ -5,7 +5,7 @@
 
 An implementation of Yao's Millionaire Problem using the Enigma Protocol based on the [Secret Contracts: Now New and Improved!](https://blog.enigma.co/secret-contracts-now-new-and-improved-df742393d6d8) article.
 
-The DApp allows "*millionaires*" to enter their net worth and see who is the richest without revealing their financial data to the world.
+The DApp allows "*millionaires*" to enter their net worth and see who is the richest without revealing their wealth.
 
 ![](docs/MPDApp.png)
 
@@ -52,7 +52,11 @@ For instructions on how to install and setup the Enigma Developer Testnet see th
  - `docker-compose version 1.24.1, build 4667896b`
  - `@enigmampc/discovery-cli 0.1.3`
 
-> Written with [StackEdit](https://stackedit.io/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc2NDUyNjEsNzMwOTk4MTE2XX0=
--->
+## Contributors
+[Aditya Palepu, Enigma MPC](https://blog.enigma.co/@apalepu23) - Millionaires' Problem articles and code
+[Reuven Podmazo, Enigma MPC](https://blog.enigma.co/@reuven_55986) - New and Improved Secret Contracts article and code
+[Victor Grau Serrat, Enigma MPC](https://blog.enigma.co/@victorsays) - Enigma DApp template code
+[Laura Weindorf, Enigma Collective](https://github.com/lauraweindorf) - Pulled the info together and created this repo
+
+## Resources
+[Enigma Project Team](https://blog.enigma.co/@EnigmaMPC) - Enigma Blog and Updates
