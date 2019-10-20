@@ -7,11 +7,11 @@ Allows "*millionaires*" to enter their net worth and see who is the richest with
 
 ![](docs/MPDApp.png)
 
-Implementation of the articles that introduce Enigma, the Rust programming language, the process of creating your first Enigma **secret contract**, and React/Redux front-end, using the latest improvements to writing secret contracts.
+Implementation of the articles that introduce Enigma, the Rust programming language, the process of creating your first Enigma **secret contract**, and React/Redux front-end, using the latest improvements for writing secret contracts.
 
- - [Getting Started with Enigma: The Rust Programming Language](https://blog.enigma.co/getting-started-with-discovery-the-rust-programming-language-4d1e0b06de15)
- - [Getting Started with Enigma: An Intro to Secret Contracts](https://blog.enigma.co/getting-started-with-enigma-an-intro-to-secret-contracts-cdba4fe501c2)
- - [Getting Started with Enigma: A Front End Demo for dApps](https://blog.enigma.co/getting-started-with-enigma-a-front-end-demo-for-dapps-bc694d3d81b9)
+ - [Getting Started with Enigma (Part 1): The Rust Programming Language](https://blog.enigma.co/getting-started-with-discovery-the-rust-programming-language-4d1e0b06de15)
+ - [Getting Started with Enigma (Part 2): An Intro to Secret Contracts](https://blog.enigma.co/getting-started-with-enigma-an-intro-to-secret-contracts-cdba4fe501c2)
+ - [Getting Started with Enigma (Part 3): A Front End Demo for dApps](https://blog.enigma.co/getting-started-with-enigma-a-front-end-demo-for-dapps-bc694d3d81b9)
  - [Secret Contracts: Now New and Improved!](https://blog.enigma.co/secret-contracts-now-new-and-improved-df742393d6d8)
 
 ## Instructions
