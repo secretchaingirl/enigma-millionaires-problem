@@ -1,2 +1,1 @@
-*.sol linguist-language=Solidity
-*.rs linguist-language=Rust
+*.js linguist-language=Rust
