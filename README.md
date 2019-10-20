@@ -23,11 +23,12 @@ DApp implementation of the articles that introduce Enigma, the Rust programming 
 
  1. Do a `git clone` on the repo
  2. `cd enigma-millionaires-problem`
- 3. `npm install`
- 4. In another terminal, start : `discovery start`
- 5. Compile the contracts: `discovery compile`
- 6. Migrate: `discovery migrate`
- 7. Run the tests: `discovery test`
+ 3. `cp .env.template .env`
+ 4. `npm install`
+ 5. In another terminal, start : `discovery start`
+ 6. Compile the contracts: `discovery compile`
+ 7. Migrate: `discovery migrate`
+ 8. Run the tests: `discovery test`
 
 ![](docs/MPDTests.png)
 
