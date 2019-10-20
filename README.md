@@ -3,19 +3,16 @@
 
 *Yao's Millionaire Problem*
 
-An implementation of Yao's Millionaire Problem using the Enigma Protocol based on the [Secret Contracts: Now New and Improved!](https://blog.enigma.co/secret-contracts-now-new-and-improved-df742393d6d8) article.
-
-The DApp allows "*millionaires*" to enter their net worth and see who is the richest without revealing their wealth.
+Allows "*millionaires*" to enter their net worth and see who is the richest without revealing their wealth.
 
 ![](docs/MPDApp.png)
 
-## Background
-DApp implementation of the articles that introduce Enigma, the Rust programming language and the process of creating your first Enigma **secret contract** and React front-end:
+Implementation of the articles that introduce Enigma, the Rust programming language, the process of creating your first Enigma **secret contract**, and React/Redux front-end, using the latest improvements to writing secret contracts.
 
- - [The Developer Quickstart Guide to Enigma](https://blog.enigma.co/the-developer-quickstart-guide-to-enigma-880c3fc4308)
  - [Getting Started with Enigma: The Rust Programming Language](https://blog.enigma.co/getting-started-with-discovery-the-rust-programming-language-4d1e0b06de15)
  - [Getting Started with Enigma: An Intro to Secret Contracts](https://blog.enigma.co/getting-started-with-enigma-an-intro-to-secret-contracts-cdba4fe501c2)
  - [Getting Started with Enigma: A Front End Demo for dApps](https://blog.enigma.co/getting-started-with-enigma-a-front-end-demo-for-dapps-bc694d3d81b9)
+ - [Secret Contracts: Now New and Improved!](https://blog.enigma.co/secret-contracts-now-new-and-improved-df742393d6d8)
 
 ## Instructions
 >Install the Enigma Discovery Developer Testnet:
@@ -23,12 +20,11 @@ DApp implementation of the articles that introduce Enigma, the Rust programming 
 
  1. Do a `git clone` on the repo
  2. `cd enigma-millionaires-problem`
- 3. `cp .env.template .env`
- 4. `npm install`
- 5. In another terminal, start : `discovery start`
- 6. Compile the contracts: `discovery compile`
- 7. Migrate: `discovery migrate`
- 8. Run the tests: `discovery test`
+ 3. `npm install`
+ 4. In another terminal, start : `discovery start`
+ 5. Compile the contracts: `discovery compile`
+ 6. Migrate: `discovery migrate`
+ 7. Run the tests: `discovery test`
 
 ![](docs/MPDTests.png)
 
@@ -42,8 +38,7 @@ Now you're all set to run the DApp front-end:
 
 ## More Info
 
- - All things Enigma: [Enigma Technical Resource
-   Index](https://blog.enigma.co/enigma-technical-resource-index-bd9110714ea6).
+ - All things Enigma: [Enigma Technical Resource Index](https://blog.enigma.co/enigma-technical-resource-index-bd9110714ea6).
 
 ## Dependencies
 For instructions on how to install and setup the Enigma Developer Testnet see the link above for *Getting Started with Enigma: An Intro to Secret Contracts*.
@@ -60,4 +55,5 @@ For instructions on how to install and setup the Enigma Developer Testnet see th
 - [Laura Weindorf, Enigma Collective](https://github.com/lauraweindorf) - Pulled the info together and created this repo
 
 ## Resources
-[Enigma Project Team](https://blog.enigma.co/@EnigmaMPC) - Enigma Blog and Updates
+- [The Developer Quickstart Guide to Enigma](https://blog.enigma.co/the-developer-quickstart-guide-to-enigma-880c3fc4308)
+- [Enigma Project Team](https://blog.enigma.co/@EnigmaMPC) - Enigma Blog and Updates
