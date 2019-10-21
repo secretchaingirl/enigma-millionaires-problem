@@ -15,16 +15,17 @@ Implementation of the articles that introduce Enigma, the Rust programming langu
  - [Secret Contracts: Now New and Improved!](https://blog.enigma.co/secret-contracts-now-new-and-improved-df742393d6d8)
 
 ## Instructions
->Install the Enigma Discovery Developer Testnet:
+>Install the CLI for the Enigma Protocol Developer Testnet:
 `npm install -g @enigmampc/discovery-cli`
 
- 1. Do a `git clone` on the repo
+ 1. `git clone https://github.com/lauraweindorf/enigma-millionaires-problem`
  2. `cd enigma-millionaires-problem`
  3. `npm install`
- 4. In another terminal, start : `discovery start`
- 5. Compile the contracts: `discovery compile`
- 6. Migrate: `discovery migrate`
- 7. Run the tests: `discovery test`
+ 4. rename `.env-default` to `.env`, adjusting the BUILD_CONTRACTS_PATH to your local
+ 5. In another terminal, start : `discovery start`
+ 6. Compile the contracts: `discovery compile`
+ 7. Migrate: `discovery migrate`
+ 8. Run the tests: `discovery test`
 
 ![](docs/MPDTests.png)
 
