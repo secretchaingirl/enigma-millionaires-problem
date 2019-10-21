@@ -92,6 +92,8 @@ class MillionairesProblem extends Component {
                 .on(eeConstants.ERROR, (error) => {
                     if (error.hasOwnProperty('message')){
                         openSnackbar({ message: error.message});
+                    } else {
+                        openSnackbar({ message: 'Failed to add millionaire'});
                     }
                     reject(error);
                 });
@@ -125,6 +127,8 @@ class MillionairesProblem extends Component {
                 .on(eeConstants.ERROR, (error) => {
                     if (error.hasOwnProperty('message')){
                         openSnackbar({ message: error.message});
+                    } else {
+                        openSnackbar({ message: 'Failed to compute richest'});
                     }
                     reject(error);
                 });
