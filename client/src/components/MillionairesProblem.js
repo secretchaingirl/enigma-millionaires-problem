@@ -89,7 +89,12 @@ class MillionairesProblem extends Component {
             this.props.enigma.computeTask(taskFn, taskArgs, taskGasLimit, taskGasPx, millionaireAddress,
                 this.props.deployedMillionairesProblem)
                 .on(eeConstants.SEND_TASK_INPUT_RESULT, (result) => resolve(result))
-                .on(eeConstants.ERROR, (error) => reject(error));
+                .on(eeConstants.ERROR, (error) => {
+                    if (error.hasOwnProperty('message')){
+                        openSnackbar({ message: error.message});
+                    }
+                    reject(error);
+                });
         });
         openSnackbar({ message: 'Task pending: adding millionaire' });
         while (task.ethStatus === 1) {
@@ -97,7 +102,7 @@ class MillionairesProblem extends Component {
             task = await this.props.enigma.getTaskRecordStatus(task);
             await sleep(1000);
         }
-        // ethStatus === 2 means task has successfully been computed and commited on Ethereum
+        // ethStatus === 2 means task has successfully been computed and committed on Ethereum
         task.ethStatus === 2 ?
             openSnackbar({ message: 'Task succeeded: added millionaire' })
             :
@@ -117,7 +122,12 @@ class MillionairesProblem extends Component {
             this.props.enigma.computeTask(taskFn, taskArgs, taskGasLimit, taskGasPx, this.props.accounts[0],
                 this.props.deployedMillionairesProblem)
                 .on(eeConstants.SEND_TASK_INPUT_RESULT, (result) => resolve(result))
-                .on(eeConstants.ERROR, (error) => reject(error));
+                .on(eeConstants.ERROR, (error) => {
+                    if (error.hasOwnProperty('message')){
+                        openSnackbar({ message: error.message});
+                    }
+                    reject(error);
+                });
         });
         openSnackbar({ message: 'Task pending: computing richest millionaire' });
         while (task.ethStatus === 1) {
