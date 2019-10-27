@@ -8,9 +8,11 @@ export const initializeEnigma = (enigma) => {
 
 // Redux action for when web3 accounts have been initialized
 export const initializeAccounts = (accounts) => {
+    // TODO: change this back to using all accounts after issue is fixed
     return {
         type: 'ACCOUNTS_INITIALIZED',
-        payload: accounts
+        //payload: accounts
+        payload: accounts.slice(0, 9)
     };
 };
 
