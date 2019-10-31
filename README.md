@@ -37,6 +37,8 @@ Now you're all set to run the DApp front-end:
 
 >For more information on the client front-end, see the [discovery-template-dapp](https://github.com/enigmampc/discovery-template-dapp) repo on GitHub.
 
+*NOTE*: The DApp uses the Http Web3 provider to connect to the local Ethereum blockchain (Ganache network) configured in `truffle.js`. An alternative implementation would be to set the Web3 provider to use MetaMask and change the address field from a dropdown to a text field.
+
 ## More Info
 
  - All things Enigma: [Enigma Technical Resource Index](https://blog.enigma.co/enigma-technical-resource-index-bd9110714ea6).
