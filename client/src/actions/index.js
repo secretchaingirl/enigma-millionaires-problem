@@ -12,6 +12,7 @@ export const initializeAccounts = (accounts) => {
     return {
         type: 'ACCOUNTS_INITIALIZED',
         //payload: accounts
+        // the 10th account is reserved for the enigma_km - @enigmampc/discovery-cli 0.1.3
         payload: accounts.slice(0, 9)
     };
 };

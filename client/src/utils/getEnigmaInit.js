@@ -19,6 +19,8 @@ export default async() => {
             },
         );
         enigma.admin();
+        enigma.setTaskKeyPair('cupcake');
+
         return enigma;
     } catch (error) {
         // Catch any errors for any of the above operations.
