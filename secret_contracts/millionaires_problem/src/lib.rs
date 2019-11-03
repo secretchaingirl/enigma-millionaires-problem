@@ -1,7 +1,5 @@
 #![no_std]
 
-extern crate serde;
-
 use eng_wasm::*;
 use eng_wasm_derive::pub_interface;
 use serde::{Serialize, Deserialize};
