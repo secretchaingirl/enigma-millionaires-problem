@@ -1,7 +1,7 @@
 
 # Enigma Millionaires Problem
 
-*Yao's Millionaire Problem*
+*Yao's Millionaires' Problem*
 
 Allows "*millionaires*" to enter their net worth and see who is the richest without revealing their wealth.
 
