@@ -1,13 +1,14 @@
 {
-  "name": "myproject",
-  "version": "1.0.0",
+  "name": "enigma-millionaires-problem",
+  "version": "1.0.1",
   "description": "",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "dotenv": "^8.0.0",
-    "enigma-js": "^0.3.0"
+    "dotenv": "^8.2.0",
+    "enigma-js": "^0.3.0",
+    "truffle": "^5.1.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -45,11 +45,11 @@ Now you're all set to run the DApp front-end:
 
 ## Dependencies
 For instructions on how to install and setup the Enigma Developer Testnet see the link above for *Getting Started with Enigma: An Intro to Secret Contracts*.
- - `rustc 1.39.0-nightly (97e58c0d3 2019-09-20)`
- - `node 10.16.3`
- - `Docker version 19.03.2, build 6a30dfc`
- - `docker-compose version 1.24.1, build 4667896b`
- - `@enigmampc/discovery-cli 0.1.3`
+ - `rustc 1.40.0-nightly`
+ - `node 11.15`
+ - `Docker version 19.03.5`
+ - `docker-compose version 1.24.1`
+ - `@enigmampc/discovery-cli 0.1.8`
 
 ## Contributors
 - [Aditya Palepu, Enigma MPC](https://blog.enigma.co/@apalepu23) - Millionaires' Problem articles and code
