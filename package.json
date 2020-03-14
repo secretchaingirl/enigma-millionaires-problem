@@ -6,9 +6,8 @@
     "test": "test"
   },
   "dependencies": {
-    "minimist": ">=1.2.2",
     "dotenv": "^8.2.0",
-    "enigma-js": "^1.0.0",
+    "enigma-js": "^0.3.0",
     "truffle": "^5.1.1"
   },
   "devDependencies": {},
